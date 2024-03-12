@@ -6,5 +6,4 @@
 
 
 ## Database
-* Database 개요
-  * [Database 개요] ()
+* [Database 개요] ()
