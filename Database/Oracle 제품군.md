@@ -16,7 +16,8 @@
 
 *클러스터 : 두 개 이상의 독립된 서버들과 Disk를 하나로 연결하는 기법. 사용자가 Cluster로 구성된 서버들 중 어느 서버에 접속해도 동일한 Disk를 엑세스하게 되므로 하나의 서버 또는 하나의 Disk에 연결하는 것처럼 인식
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/030f77a9-1ce1-4917-b029-3a1399122001/140a7390-abd0-4729-8ca9-e6bbe0e7b127/Untitled.png)
+![image](https://github.com/jeongye01/TIL/assets/74299317/9a7a6d92-aca2-4c37-aaf6-99035465cbc5)
+
 
 - 여러 서버(노드)가 하나의 데이터베이스 인스턴스를 공유하여 동작하는 클러스터 데이터베이스 시스템
 - Shared-Disk 기반 기술로 전체 노드가 하나의 동일한 DB를 서비스 함
@@ -35,7 +36,7 @@
 - Disk Load Balancing - ASM이 관리하는 모든 Disk에 대해 Load Balancing 작업을 자동으로 처리한다. 그러므로 특정 Disk에 Load가 집중되는 현상을 최소화
 - ASM이 관리하는 영역에서 새로운 Disk를 추가/삭제할 경우 기존 Data들에 대해 재구성 작업이 자동으로 발생
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/030f77a9-1ce1-4917-b029-3a1399122001/4c93cb74-cea8-437e-ba42-0449ce2bb6ea/Untitled.png)
+![image](https://github.com/jeongye01/TIL/assets/74299317/b8675969-58c8-4822-a4d0-4d2339eb52f6)
 
 ### ExaData
 
