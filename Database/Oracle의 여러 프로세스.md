@@ -24,7 +24,7 @@
 
 # Server Process & Background Process
 
-오라클은 Multi-Process 구조로 구성되어 있다. 
+오라클은 Multi-Process 구조로 구성되어 있다. 따라서 여러개의 SQL문을 동시에 처리할 수 있다.
 
 오라클의 프로세스들은 크게 두 개로 분류 될 수 있다.
 
