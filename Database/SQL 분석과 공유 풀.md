@@ -31,7 +31,8 @@ Q. 어떤 처리 방법이 가장 좋은지(비용이 가장 적을 것인지) �
 
 공유풀은 실행 계획을 재사용하여 분석 작업을 줄이기 위한 존재라고 볼 수 있다(CPU 자원 절약).  공유 풀도 프로세스 간에 공유 되어야 하므로 버퍼 캐시와 마찬가지로 공유 메모리에 있다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/030f77a9-1ce1-4917-b029-3a1399122001/f8b587f4-21e5-4a58-9bf8-8870b4be5e25/Untitled.png)
+![image](https://github.com/jeongye01/TIL/assets/74299317/cec312ee-ce2c-4647-bd48-66d82798b077)
+
 
 ## SQL문이 같다고 판단하는 기준
 
