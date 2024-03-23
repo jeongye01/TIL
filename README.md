@@ -20,3 +20,5 @@
     - [백업&복구의 구조와 동작](https://github.com/jeongye01/TIL/blob/main/Database/%EB%B0%B1%EC%97%85%26%EB%B3%B5%EA%B5%AC%EC%9D%98%20%EA%B5%AC%EC%A1%B0%EC%99%80%20%EB%8F%99%EC%9E%91)
     - [백그라운드 프로세스의 동작과 역할](https://github.com/jeongye01/TIL/blob/main/Database/%EB%B0%B1%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%9D%98%20%EB%8F%99%EC%9E%91%EA%B3%BC%20%EC%97%AD%ED%95%A0.md)
 
+- SQL 튜닝
+
