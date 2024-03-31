@@ -22,6 +22,7 @@
 
 - SQL 튜닝
   - [1.1 SQL 처리과정과 IO](https://github.com/jeongye01/TIL/blob/main/Database/SQL%20%EC%84%B1%EB%8A%A5%ED%8A%9C%EB%8B%9D/1.1%20SQL%20%EC%B2%98%EB%A6%AC%EA%B3%BC%EC%A0%95%EA%B3%BC%20IO.md)
+  - [1.2 SQL 공유 및 재사용](https://github.com/jeongye01/TIL/blob/main/Database/SQL%20%EC%84%B1%EB%8A%A5%ED%8A%9C%EB%8B%9D/1.2%20SQL%20%EA%B3%B5%EC%9C%A0%20%EB%B0%8F%20%EC%9E%AC%EC%82%AC%EC%9A%A9.md)
 
 # Infra
 - AWS
