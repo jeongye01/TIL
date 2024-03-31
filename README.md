@@ -21,6 +21,7 @@
     - [백그라운드 프로세스의 동작과 역할](https://github.com/jeongye01/TIL/blob/main/Database/%EB%B0%B1%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%9D%98%20%EB%8F%99%EC%9E%91%EA%B3%BC%20%EC%97%AD%ED%95%A0.md)
 
 - SQL 튜닝
+  - [1.1 SQL 처리과정과 IO](https://github.com/jeongye01/TIL/blob/main/Database/SQL%20%EC%84%B1%EB%8A%A5%ED%8A%9C%EB%8B%9D/1.1%20SQL%20%EC%B2%98%EB%A6%AC%EA%B3%BC%EC%A0%95%EA%B3%BC%20IO.md)
 
 # Infra
 - AWS
