@@ -20,7 +20,7 @@
     - [백업&복구의 구조와 동작](https://github.com/jeongye01/TIL/blob/main/Database/%EB%B0%B1%EC%97%85%26%EB%B3%B5%EA%B5%AC%EC%9D%98%20%EA%B5%AC%EC%A1%B0%EC%99%80%20%EB%8F%99%EC%9E%91)
     - [백그라운드 프로세스의 동작과 역할](https://github.com/jeongye01/TIL/blob/main/Database/%EB%B0%B1%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%9D%98%20%EB%8F%99%EC%9E%91%EA%B3%BC%20%EC%97%AD%ED%95%A0.md)
 
-- SQL 튜닝
+- SQL 튜닝(Oracle 중심)
   - [1.1 SQL 처리과정과 IO](https://github.com/jeongye01/TIL/blob/main/Database/SQL%20%EC%84%B1%EB%8A%A5%ED%8A%9C%EB%8B%9D/1.1%20SQL%20%EC%B2%98%EB%A6%AC%EA%B3%BC%EC%A0%95%EA%B3%BC%20IO.md)
   - [1.2 SQL 공유 및 재사용](https://github.com/jeongye01/TIL/blob/main/Database/SQL%20%EC%84%B1%EB%8A%A5%ED%8A%9C%EB%8B%9D/1.2%20SQL%20%EA%B3%B5%EC%9C%A0%20%EB%B0%8F%20%EC%9E%AC%EC%82%AC%EC%9A%A9.md)
   - [1.3 데이터 저장 구조 및 IO 메커니즘](https://github.com/jeongye01/TIL/blob/main/Database/SQL%20%EC%84%B1%EB%8A%A5%ED%8A%9C%EB%8B%9D/1.3%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%80%EC%9E%A5%20%EA%B5%AC%EC%A1%B0%20%EB%B0%8F%20IO%20%EB%A9%94%EC%BB%A4%EB%8B%88%EC%A6%98.md)
