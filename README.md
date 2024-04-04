@@ -31,3 +31,4 @@
 - AWS
      - [AWS 개요](https://github.com/jeongye01/TIL/blob/main/Infra/AWS/AWS%20%EA%B0%9C%EC%9A%94.md)
      - [IAM](https://github.com/jeongye01/TIL/blob/main/Infra/AWS/IAM.md)
+     - [EC2](https://github.com/jeongye01/TIL/blob/main/Infra/AWS/EC2.md)
