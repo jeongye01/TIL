@@ -35,4 +35,4 @@
 # 객체지향 프로그래밍(OOP)
 - [객체지향 패러다임 : 협력,책임,역할](https://github.com/jeongye01/TIL/blob/main/OOP/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%20%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84%20%3A%20%ED%98%91%EB%A0%A5%2C%EC%B1%85%EC%9E%84%2C%EC%97%AD%ED%95%A0.md)
 - [의존성(Dependency)](https://github.com/jeongye01/TIL/blob/main/OOP/%EC%9D%98%EC%A1%B4%EC%84%B1(Dependency).md)
-- [상속 : 코드 재사용의 함정]()
+- [상속 : 코드 재사용의 함정](https://github.com/jeongye01/TIL/blob/main/OOP/%EC%83%81%EC%86%8D%20:%20%EC%BD%94%EB%93%9C%20%EC%9E%AC%EC%82%AC%EC%9A%A9%EC%9D%98%20%ED%95%A8%EC%A0%95.md)
