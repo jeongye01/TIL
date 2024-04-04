@@ -32,3 +32,5 @@
      - [AWS 개요](https://github.com/jeongye01/TIL/blob/main/Infra/AWS/AWS%20%EA%B0%9C%EC%9A%94.md)
      - [IAM](https://github.com/jeongye01/TIL/blob/main/Infra/AWS/IAM.md)
      - [EC2](https://github.com/jeongye01/TIL/blob/main/Infra/AWS/EC2.md)
+# 객체지향 프로그래밍(OOP)
+- [객체지향 패러다임 : 협력,책임,역할]()
