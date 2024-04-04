@@ -33,4 +33,4 @@
      - [IAM](https://github.com/jeongye01/TIL/blob/main/Infra/AWS/IAM.md)
      - [EC2](https://github.com/jeongye01/TIL/blob/main/Infra/AWS/EC2.md)
 # 객체지향 프로그래밍(OOP)
-- [객체지향 패러다임 : 협력,책임,역할]()
+- [객체지향 패러다임 : 협력,책임,역할](https://github.com/jeongye01/TIL/blob/main/OOP/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%20%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84%20%3A%20%ED%98%91%EB%A0%A5%2C%EC%B1%85%EC%9E%84%2C%EC%97%AD%ED%95%A0.md)
