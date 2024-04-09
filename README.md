@@ -27,6 +27,7 @@
   - [2.1 인덱스 구조 및 탐색](https://github.com/jeongye01/TIL/blob/main/Database/SQL%20%EC%84%B1%EB%8A%A5%ED%8A%9C%EB%8B%9D/2.1%20%EC%9D%B8%EB%8D%B1%EC%8A%A4%20%EA%B5%AC%EC%A1%B0%20%EB%B0%8F%20%ED%83%90%EC%83%89.md)
   - [2.2 인덱스 기본 사용법](https://github.com/jeongye01/TIL/blob/main/Database/SQL%20%EC%84%B1%EB%8A%A5%ED%8A%9C%EB%8B%9D/2.2%20%EC%9D%B8%EB%8D%B1%EC%8A%A4%20%EA%B8%B0%EB%B3%B8%20%EC%82%AC%EC%9A%A9%EB%B2%95.md)
   - [2.3 인덱스 확장기능 사용법](https://github.com/jeongye01/TIL/blob/main/Database/SQL%20%EC%84%B1%EB%8A%A5%ED%8A%9C%EB%8B%9D/2.3%20%EC%9D%B8%EB%8D%B1%EC%8A%A4%20%ED%99%95%EC%9E%A5%EA%B8%B0%EB%8A%A5%20%EC%82%AC%EC%9A%A9%EB%B2%95.md)
+  - [3.1 테이블 엑세스 최소화](https://github.com/jeongye01/TIL/blob/main/Database/SQL%20%EC%84%B1%EB%8A%A5%ED%8A%9C%EB%8B%9D/3.1%20%ED%85%8C%EC%9D%B4%EB%B8%94%20%EC%97%91%EC%84%B8%EC%8A%A4%20%EC%B5%9C%EC%86%8C%ED%99%94.md)
 
 # Infra
 - AWS
