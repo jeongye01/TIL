@@ -40,3 +40,4 @@
 - [의존성(Dependency)](https://github.com/jeongye01/TIL/blob/main/OOP/%EC%9D%98%EC%A1%B4%EC%84%B1(Dependency).md)
 - [상속 : 코드 재사용의 함정](https://github.com/jeongye01/TIL/blob/main/OOP/%EC%83%81%EC%86%8D%20:%20%EC%BD%94%EB%93%9C%20%EC%9E%AC%EC%82%AC%EC%9A%A9%EC%9D%98%20%ED%95%A8%EC%A0%95.md)
 - [합성 : 유연한 코드로 가는 길](https://github.com/jeongye01/TIL/blob/main/OOP/%ED%95%A9%EC%84%B1%20%3A%20%EC%9C%A0%EC%97%B0%ED%95%9C%20%EC%BD%94%EB%93%9C%EB%A1%9C%20%EA%B0%80%EB%8A%94%20%EA%B8%B8.md)
+- [람다(Lambda)](https://github.com/jeongye01/TIL/blob/main/OOP/%EB%9E%8C%EB%8B%A4(Lambda).md)
