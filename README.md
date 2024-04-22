@@ -50,5 +50,5 @@
 
 # FE
 - React
-  - [왜 리액트인가? 리액트의 역사](https://github.com/jeongye01/TIL/blob/main/FE/React/%EC%99%9C%20%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%9D%B8%EA%B0%80%3F%20%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%9D%98%20%EC%97%AD%EC%82%AC.md))
+  - [왜 리액트인가? 리액트의 역사](https://github.com/jeongye01/TIL/blob/main/FE/React/%EC%99%9C%20%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%9D%B8%EA%B0%80%3F%20%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%9D%98%20%EC%97%AD%EC%82%AC.md)
 
