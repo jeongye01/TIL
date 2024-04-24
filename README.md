@@ -50,7 +50,7 @@
 
 # FE
 - React(18.2.0 기준)
-  - [왜 리액트인가? 리액트의 역사](https://github.com/jeongye01/TIL/blob/main/FE/React/%EC%99%9C%20%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%9D%B8%EA%B0%80%3F%20%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%9D%98%20%EC%97%AD%EC%82%AC.md)
-  - [렌더링은 어떻게 일어나는가?](https://github.com/jeongye01/TIL/blob/main/FE/React/%EB%A0%8C%EB%8D%94%EB%A7%81%EC%9D%80%20%EC%96%B4%EB%96%BB%EA%B2%8C%20%EC%9D%BC%EC%96%B4%EB%82%98%EB%8A%94%EA%B0%80%3F.md)
+  - [리액트의 역사](https://github.com/jeongye01/TIL/blob/main/FE/React/%EC%99%9C%20%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%9D%B8%EA%B0%80%3F%20%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%9D%98%20%EC%97%AD%EC%82%AC.md)
+  - [렌더링 동작](https://github.com/jeongye01/TIL/blob/main/FE/React/%EB%A0%8C%EB%8D%94%EB%A7%81%EC%9D%80%20%EC%96%B4%EB%96%BB%EA%B2%8C%20%EC%9D%BC%EC%96%B4%EB%82%98%EB%8A%94%EA%B0%80%3F.md)
   - [타입스크립트 개요](https://github.com/jeongye01/TIL/blob/main/FE/React/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EA%B0%9C%EC%9A%94.md)
 
