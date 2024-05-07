@@ -47,9 +47,12 @@
   
 # 디자인 패턴
 - [디자인 패턴을 공부하는 이유](https://github.com/jeongye01/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EB%94%94%EC%9E%90%EC%9D%B8%20%ED%8C%A8%ED%84%B4%EC%9D%84%20%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)
-- [Strategy 패턴](https://github.com/jeongye01/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/Strategy%20%ED%8C%A8%ED%84%B4.md)
-- [Observer 패턴](https://github.com/jeongye01/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/Observer%20%ED%8C%A8%ED%84%B4.md)
-
+- 행위 패턴
+   - [Strategy 패턴](https://github.com/jeongye01/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/Strategy%20%ED%8C%A8%ED%84%B4.md)
+   - [Observer 패턴](https://github.com/jeongye01/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/Observer%20%ED%8C%A8%ED%84%B4.md)
+- 생성 패턴
+- 구조 패턴
+  
 # FE
 - React(18.2.0 기준)
   - [리액트의 역사](https://github.com/jeongye01/TIL/blob/main/FE/React/%EC%99%9C%20%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%9D%B8%EA%B0%80%3F%20%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%9D%98%20%EC%97%AD%EC%82%AC.md)
