@@ -135,7 +135,7 @@ public class TicketCancelObserver implements Observer<ReservationInfo> {
     
     c. Subscriber(Observer) - async
     
-    그래서 @TransactionalEventListener 으로 Observer(Listener,Subscriber)를 등록하면 트랜잭션이 Commit된 이후에 옵저버에 이벤트 메시지를 발행한다.
+    그래서 @TransactionalEventListener 으로 Observer(Listener,Subscriber)를 등록하면 트랜잭션이 Commit된 이후에 옵저버에 이벤트 메시지를 발행한다.(기본 설정이 AFTER_COMMIT 이므로)
     
     ```java
     @Component
