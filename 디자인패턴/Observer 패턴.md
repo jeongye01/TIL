@@ -148,3 +148,4 @@ public class TicketCancelObserver implements Observer<ReservationInfo> {
        }
     }
     ```
+![image](https://github.com/jeongye01/TIL/assets/74299317/c9286644-e741-4874-9605-e89d1c7ff33f)
