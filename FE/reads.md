@@ -1,3 +1,4 @@
 - [2024 프론트엔드 기술스택 이야기](https://velog.io/@teo/2024-frontend-techstack)
 - [더 가치 있는 공통 컴포넌트 만들기](https://fe-developers.kakaoent.com/2024/240116-common-component/)
 - [React Query의 구조와 useQuery 실행 흐름 살펴보기](https://fe-developers.kakaoent.com/2023/230720-react-query/)
+- [Next.js 캐싱으로 웹 서버 성능 최적화](https://fe-developers.kakaoent.com/2024/240418-optimizing-nextjs-cache/)
