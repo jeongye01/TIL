@@ -1,0 +1,3 @@
+- TPS(Transaction Per Second)
+- 웹스토리지 이벤트(onstorage)
+- ?? , ||
