@@ -3,3 +3,6 @@
 - ?? , ||
 - Full Route Cache
 - TTFB(Time to First Byte)
+- BFF
+- graphql을 활용해 BFF를 운영
+- DX(Developer Experience)
