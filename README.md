@@ -50,10 +50,10 @@
 - 행위 패턴
    - [Strategy 패턴](https://github.com/jeongye01/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/Strategy%20%ED%8C%A8%ED%84%B4.md)
    - [Observer 패턴](https://github.com/jeongye01/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/Observer%20%ED%8C%A8%ED%84%B4.md)
-- 생성 패턴
 - 구조 패턴
   - [Decorator 패턴](https://github.com/jeongye01/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/Decorator%20%ED%8C%A8%ED%84%B4.md)
   - [Adaptor 패턴](https://github.com/jeongye01/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/Adaptor%20%ED%8C%A8%ED%84%B4.md)
+- 생성 패턴
   
 # FE
 - React(18.2.0 기준)
