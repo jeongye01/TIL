@@ -54,7 +54,10 @@
   - [Decorator 패턴](https://github.com/jeongye01/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/Decorator%20%ED%8C%A8%ED%84%B4.md)
   - [Adaptor 패턴](https://github.com/jeongye01/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/Adaptor%20%ED%8C%A8%ED%84%B4.md)
 - 생성 패턴
-  
+
+# 아키텍처 패턴
+- [Hexagonal Architecture](https://github.com/jeongye01/TIL/blob/main/Architecture%20Pattern/Hexagonal%20Architecture.md)
+
 # FE
 - React(18.2.0 기준)
   - [리액트의 역사](https://github.com/jeongye01/TIL/blob/main/FE/React/%EC%99%9C%20%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%9D%B8%EA%B0%80%3F%20%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%9D%98%20%EC%97%AD%EC%82%AC.md)
