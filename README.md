@@ -56,6 +56,7 @@
   - [Proxy 패턴](https://github.com/jeongye01/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/Proxy%20%ED%8C%A8%ED%84%B4.md)
 - 생성 패턴
   - [Builder 패턴](https://github.com/jeongye01/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/Builder%20%ED%8C%A8%ED%84%B4.md)
+  - [Factory Method 패턴](https://github.com/jeongye01/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/Factory%20Method%20%ED%8C%A8%ED%84%B4.md)
 
 # 아키텍처 패턴
 - [Hexagonal Architecture](https://github.com/jeongye01/TIL/blob/main/Architecture%20Pattern/Hexagonal%20Architecture.md)
