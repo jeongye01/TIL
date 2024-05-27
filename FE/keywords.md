@@ -6,3 +6,6 @@
 - BFF
 - graphql을 활용해 BFF를 운영
 - DX(Developer Experience)
+- media capture and streams 및 배터리 상태 api
+- 서비스 워커 및 오프라인 api
+- 성능 api : navigation timing api 및 performance observer api
