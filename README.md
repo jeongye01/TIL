@@ -34,7 +34,7 @@
 
 # SQL
 - [with recursive](https://github.com/jeongye01/TIL/blob/main/SQL/with%20recursive.md)
-- [NTILE]()
+- [NTILE](https://github.com/jeongye01/TIL/blob/main/SQL/NTILE.md)
 
 
 
