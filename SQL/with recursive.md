@@ -1,7 +1,7 @@
 with recursive 는 재귀 쿼리 문법이다. 아래의 예시를 통해서 자세히 알아보자.
 (아래 링크의 프로그래머스의 문제를 예시로 든 것이기 때문에, 자세한 문제는 아래를 참고하길 바람)
 
-(특정 세대의 대장균 찾기)[https://school.programmers.co.kr/learn/courses/30/lessons/301650]
+(특정 세대의 대장균 찾기) [https://school.programmers.co.kr/learn/courses/30/lessons/301650]
 
  
 ecoli_data 테이블이 존재하고 부모-자식 관계를 나타내는 데이터가 저장되어 있다.
