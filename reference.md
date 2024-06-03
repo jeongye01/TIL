@@ -1,3 +1,4 @@
 - https://www.notion.so/i-am-your-father/s-48cd1143a2d643d18ac48bdeb8114061
 - https://www.baeldung.com/spring-events
 - https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000005394905
+- [CSP는 뭐고 MSP는 뭐지? 클라우드 도입 전 꼭 알아야 할 필수 용어 | IT 단어장](https://www.skcc.co.kr/insight/trend/144)
