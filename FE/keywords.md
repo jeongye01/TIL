@@ -11,3 +11,4 @@
 - 성능 api : navigation timing api 및 performance observer api
 - 어댑티브 디자인 vs 반응형 디자인
 - 아토믹 CSS
+- 코드 복잡성 도구(코드 라인 수, 분기 수, 연산자 및 피연산자 수 등을 기반으로 계산)
