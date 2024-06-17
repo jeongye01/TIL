@@ -30,8 +30,8 @@ configurations {
 
 // 어디서 의존성을 다운로드 할지 
 repositories {
-	mavenCentral() // 이전부터 많이 사용하는 저장소. 본인이 만든 라이브러리 업로드 하기 힘듦.
-	jcenter() // 라이브러리 업로드 간단. 라이브러리 업로드하면 자동으로 mavenCentral에도 올라감. 점점 jcenter로 이동하는 추세. 두개 모두 적어놔도됌. 
+	mavenCentral() // 이전부터 많이 사용하는 저장소
+	
 }
 
 dependencies {
