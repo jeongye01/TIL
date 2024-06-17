@@ -75,7 +75,8 @@
 - [Hexagonal Architecture](https://github.com/jeongye01/TIL/blob/main/Architecture%20Pattern/Hexagonal%20Architecture.md)
 
 
-
+# Spring
+- [Gradle](https://github.com/jeongye01/TIL/blob/main/Spring/Gradle.md)
 
 
 # FE
