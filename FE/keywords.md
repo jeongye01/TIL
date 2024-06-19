@@ -17,3 +17,4 @@
 - E2E 테스트를 자동화(Selenium, Cypress, TestCafe)
 - GraphQL
 - Radix-UI
+- checkbox vs radio 
