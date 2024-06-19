@@ -11,7 +11,8 @@ Turborepo의 주요 미션은 모노레포 환경에서 개발자가 조금 더 
 - Content-aware hashing **:** 코드 내용을 구분•식별해서 해시값으로 코드의 변경을 감지
 - Parallel execution : 모든 코어를 사용하는 병렬 실행을 목표로함. 지정된 태스크 단위로 의존성을 판단해 최대한 병렬적으로 작업 진행
     
-    ![image](https://github.com/jeongye01/TIL/assets/74299317/4c3fc957-1973-493a-9157-fffc87d27a89)
+    ![image](https://github.com/jeongye01/TIL/assets/74299317/1c91e5e5-edd1-4d64-990d-7884992c720b)
+
 
     
 
