@@ -45,7 +45,7 @@
      - [EC2](https://github.com/jeongye01/TIL/blob/main/Infra/AWS/EC2.md)
      - [Route53](https://github.com/jeongye01/TIL/blob/main/Infra/AWS/Route53.md)
 - Build
-  - [Turborepo]()
+  - [Turborepo](https://github.com/jeongye01/TIL/blob/main/Infra/Build/Turborepo.md)
 - [monorepo]()
   
 # 객체지향 프로그래밍(OOP)
