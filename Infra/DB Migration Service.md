@@ -8,7 +8,7 @@
 
 ### 대표적인 제품들
 
-- **T-UP**
+- **T-UP** (오라클 -> 티베로 DB Migration)
 - **AWS Database Migration Service (DMS)**
 - **Google Cloud Database Migration Service**
 - **Microsoft Azure Database Migration Service**
