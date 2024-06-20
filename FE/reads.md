@@ -8,3 +8,4 @@
 - [레티나 디스플레이 대응하기](https://doridori-samsam.tistory.com/28)
 - [Radix UI로 Headless UI 맛보기](https://xionwcfm.tistory.com/371)
 - [lodash library란?](https://despiteallthat.tistory.com/167)
+- [Lodash의 대체재로서의 순수 자바스크립트 함수](https://ui.toast.com/weekly-pick/ko_20190515?ref=codenary)
