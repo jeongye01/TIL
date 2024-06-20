@@ -46,6 +46,8 @@
      - [Route53](https://github.com/jeongye01/TIL/blob/main/Infra/AWS/Route53.md)
 - Build
   - [Turborepo](https://github.com/jeongye01/TIL/blob/main/Infra/Build/Turborepo.md)
+- JS Package Manager
+  - [pnpm](https://github.com/jeongye01/TIL/blob/main/Infra/JS%20Package%20Manager/pnpm.md)
 - [monorepo](https://github.com/jeongye01/TIL/blob/main/Infra/monorepo.md)
   
 # 객체지향 프로그래밍(OOP)
