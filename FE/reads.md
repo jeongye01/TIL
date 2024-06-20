@@ -7,3 +7,4 @@
 - [서비스 워커에 대해 알아보고 Mock Response 만들기](https://fe-developers.kakaoent.com/2022/221208-service-worker/)
 - [레티나 디스플레이 대응하기](https://doridori-samsam.tistory.com/28)
 - [Radix UI로 Headless UI 맛보기](https://xionwcfm.tistory.com/371)
+- [lodash library란?](https://despiteallthat.tistory.com/167)
