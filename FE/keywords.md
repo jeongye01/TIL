@@ -25,3 +25,4 @@
 - View Transitions API
 - Semantic Versioning, SemVer
 - 정적 사이트 생성기 (SSG)
+- 스트리밍 SSR
