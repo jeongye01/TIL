@@ -24,3 +24,4 @@
 - UX 성능 최적화 (Windowing,Reactive,Web Worker 등 )
 - View Transitions API
 - Semantic Versioning, SemVer
+- 정적 사이트 생성기 (SSG)
