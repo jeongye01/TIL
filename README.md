@@ -82,7 +82,7 @@
 
 # Spring
 - [Gradle](https://github.com/jeongye01/TIL/blob/main/Spring/Gradle.md)
-- [Annotaions]()
+- [Annotaions](https://github.com/jeongye01/TIL/blob/main/Spring/Annotaions.md)
 
 
 # FE
