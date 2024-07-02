@@ -11,4 +11,5 @@
 - [Lodash의 대체재로서의 순수 자바스크립트 함수](https://ui.toast.com/weekly-pick/ko_20190515?ref=codenary)
 - [프로젝트 전체에서 사용되는 패키지, 어떻게 마이그레이션 할까?](https://toss.tech/article/frontent-package-migration?ref=codenary)
 - [모던 프론트엔드 프로젝트 구성 기법 - 모노레포 도구 편](https://d2.naver.com/helloworld/7553804)
+- [모닥불 | EP.2 함수형 프로그래밍, 프론트엔드 개발에 진짜 도움 될까?](https://toss.tech/article/firesidechat_frontend_1?ref=codenary)
 - https://toss.tech/article/improving-code-quality-via-eslint-and-ast
