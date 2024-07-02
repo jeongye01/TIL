@@ -37,4 +37,5 @@
 - Flux Pattern : React에서 데이터가 한방향으로만 흐르도록 만드는 설계 패턴. Redux로 대표되며 보통 Action과 Dispatcher를 쓴다.
 - Lazy Evalutaion(지연 평가) : 계산해야 하는 연산을 최대한 뒤로 미룸으로써 성능을 개선시키는 함수형 프로그래밍의 기법
 - 일급객체(First-class object): 변수의 값, 매개변수, 또는 반환값으로 다룰 수 있는 객체
-- 합성(Composition) : 객체지향에서 큰 일을 작은 책임을 가지는 객체 여러개의 상호작용으로 설계하는 패턴 
+- 합성(Composition) : 객체지향에서 큰 일을 작은 책임을 가지는 객체 여러개의 상호작용으로 설계하는 패턴
+- variable2CSS plugin
