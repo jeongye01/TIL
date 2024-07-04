@@ -40,3 +40,5 @@
 - 합성(Composition) : 객체지향에서 큰 일을 작은 책임을 가지는 객체 여러개의 상호작용으로 설계하는 패턴
 - variable2CSS plugin
 - 피그마플러그인제작
+- testing-library
+- Jest
