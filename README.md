@@ -94,7 +94,7 @@
   - [SCSS](https://github.com/jeongye01/TIL/tree/main/FE/CSS)
 
 # Algorithm
-- [Dijkstra]()
+- [Dijkstra](https://github.com/jeongye01/TIL/blob/main/Algorithm/Dijkstra.md)
 
 # Tools
 - Database
