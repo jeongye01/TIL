@@ -15,5 +15,6 @@
 - [여기어때 피그마 플러그인 제작기](https://techblog.gccompany.co.kr/%EC%97%AC%EA%B8%B0%EC%96%B4%EB%95%8C-%ED%94%BC%EA%B7%B8%EB%A7%88-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8-%EC%A0%9C%EC%9E%91%EA%B8%B0-6fa64941dd42)
 - [모던 프론트엔드 테스트 전략 — 2편](https://blog.mathpresso.com/%EB%AA%A8%EB%8D%98-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%A0%84%EB%9E%B5-2%ED%8E%B8-de069e271b3d)
 - [모던 프론트엔드 테스트 전략 — 1편(Testing Overview)](https://blog.mathpresso.com/%EB%AA%A8%EB%8D%98-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%A0%84%EB%9E%B5-1%ED%8E%B8-841e87a613b2)
-- [스토리북으로 인터랙션 테스트하기(https://ui.toast.com/weekly-pick/ko_20220111?ref=codenary)
+- [스토리북으로 인터랙션 테스트하기](https://ui.toast.com/weekly-pick/ko_20220111?ref=codenary)
+- [모닥불 | EP.3 프론트엔드 개발에서 테스트 자동화, 꼭 해야 할까?](https://toss.tech/article/firesidechat_frontend_3)
 - https://toss.tech/article/improving-code-quality-via-eslint-and-ast
