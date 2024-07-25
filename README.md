@@ -96,6 +96,9 @@
 # Algorithm
 - [Dijkstra](https://github.com/jeongye01/TIL/blob/main/Algorithm/Dijkstra.md)
 
+# Git
+- [Merge 방법들](https://github.com/jeongye01/TIL/blob/main/Git/merge.md)
+
 # Tools
 - Database
   - [DBeaver](https://github.com/jeongye01/TIL/blob/main/tools/DBeaver.md)
