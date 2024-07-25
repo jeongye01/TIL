@@ -17,4 +17,5 @@
 - [모던 프론트엔드 테스트 전략 — 1편(Testing Overview)](https://blog.mathpresso.com/%EB%AA%A8%EB%8D%98-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%A0%84%EB%9E%B5-1%ED%8E%B8-841e87a613b2)
 - [스토리북으로 인터랙션 테스트하기](https://ui.toast.com/weekly-pick/ko_20220111?ref=codenary)
 - [모닥불 | EP.3 프론트엔드 개발에서 테스트 자동화, 꼭 해야 할까?](https://toss.tech/article/firesidechat_frontend_3)
+- [핀다에서 쓰는 React Custom Hooks](https://medium.com/finda-tech/%ED%95%80%EB%8B%A4%EC%97%90%EC%84%9C-%EC%93%B0%EB%8A%94-react-custom-hooks-1a732ce949a5)
 - https://toss.tech/article/improving-code-quality-via-eslint-and-ast
