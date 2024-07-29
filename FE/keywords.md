@@ -42,3 +42,4 @@
 - 피그마플러그인제작
 - testing-library
 - Jest
+- 서브모듈 vs 모노레포 
