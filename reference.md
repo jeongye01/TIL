@@ -3,3 +3,4 @@
 - https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000005394905
 - [CSP는 뭐고 MSP는 뭐지? 클라우드 도입 전 꼭 알아야 할 필수 용어 | IT 단어장](https://www.skcc.co.kr/insight/trend/144)
 - https://www.codenary.co.kr/
+- https://medium.com/@junep
