@@ -19,4 +19,5 @@
 - [모닥불 | EP.3 프론트엔드 개발에서 테스트 자동화, 꼭 해야 할까?](https://toss.tech/article/firesidechat_frontend_3)
 - [핀다에서 쓰는 React Custom Hooks](https://medium.com/finda-tech/%ED%95%80%EB%8B%A4%EC%97%90%EC%84%9C-%EC%93%B0%EB%8A%94-react-custom-hooks-1a732ce949a5)
 - [계획적인 삶을 위해 Part 1. 무계획에서 할 일 앱까지](https://medium.com/@junep/%EA%B3%84%ED%9A%8D%EC%A0%81%EC%9D%B8-%EC%82%B6%EC%9D%84-%EC%9C%84%ED%95%B4-part-1-%EB%AC%B4%EA%B3%84%ED%9A%8D%EC%97%90%EC%84%9C-%ED%95%A0-%EC%9D%BC-%EC%95%B1%EA%B9%8C%EC%A7%80-e9d5052786f4)
+- [infer, never만 보면 두려워지는 당신을 위한 타입 추론 - 기초 타입 이론](https://d2.naver.com/helloworld/9283310?ref=codenary)
 - https://toss.tech/article/improving-code-quality-via-eslint-and-ast
