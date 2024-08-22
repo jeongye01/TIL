@@ -42,4 +42,5 @@
 - 피그마플러그인제작
 - testing-library
 - Jest
-- 서브모듈 vs 모노레포 
+- 서브모듈 vs 모노레포
+- commander 라이브러리 - CLI 프로그램 만들기 
