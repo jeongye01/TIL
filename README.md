@@ -90,6 +90,7 @@
 - [call](https://github.com/jeongye01/TIL/blob/main/Javascript/call%20%EB%A9%94%EC%84%9C%EB%93%9C.md)
 - [함수형 프로그래밍](https://github.com/jeongye01/TIL/blob/main/Javascript/%ED%95%A8%EC%88%98%ED%98%95%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D.md)
 - [일급객체](https://github.com/jeongye01/TIL/blob/main/Javascript/%EC%9D%BC%EA%B8%89%EA%B0%9D%EC%B2%B4.md)
+- [map,filter,each](https://github.com/jeongye01/TIL/blob/main/Javascript/map%2Cfilter%2Ceach%20%EA%B5%AC%ED%98%84.md)
 
 
 # Open Source
