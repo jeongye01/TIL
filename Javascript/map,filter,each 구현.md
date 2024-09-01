@@ -80,3 +80,18 @@ function _map(list,mapper){
    return new_list;
 }
 ```
+
+
+## 다형성
+
+map,filter 와 같은 함수들은 이미 자바스크립트에 있음. 그러나 이 함수들은 함수가 아니라 method임.
+
+array가 아니면 사용할 수 없음. 즉 array-like 객체(ex. document.querySelectorAll)는 사용할수 없음. 
+
+그러나 위에 구현한 _*filter,_map은 array-like 객체도 사용할수 있음*
+
+그래서 보다 다형성이 높게 프로그래밍 할 수 있음. 
+
+### 보조함수
+
+predi(어떤 조건을 return),iter(반복적으로 돌면서 뭔가를 함),mapper(무언가 사이를 매핑)는 보조함수임. 함수형 프로그래밍에서는 두 번째 함수가 어떤 역할을 하는 함수인지에 따라 다양한 이름을 가질 수 있음. 보조함수에 역할을 위임하기 때문에 데이터형에 있어서 굉장히 자유롭고 다형성을 높이는데 유리함.
