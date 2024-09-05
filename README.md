@@ -104,6 +104,8 @@
   - [타입스크립트 개요](https://github.com/jeongye01/TIL/blob/main/FE/React/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EA%B0%9C%EC%9A%94.md)
 - CSS
   - [SCSS](https://github.com/jeongye01/TIL/tree/main/FE/CSS)
+- Web API
+  - [Intersection Observer API](https://github.com/jeongye01/TIL/blob/main/FE/Web%20API/Intersection%20Observer%20API.md)
 
 # Algorithm
 - [Dijkstra](https://github.com/jeongye01/TIL/blob/main/Algorithm/Dijkstra.md)
