@@ -232,3 +232,108 @@ pm2 --version
 경우에 따라 위의 방법으로도 바로 적용되지 않을 수 있습니다. 그럴 때는 시스템을 재부팅하면 `PATH` 설정이 적용됩니다.
 
 이렇게 하면 `pm2`를 포함한 글로벌 명령어들이 `PATH`에 등록되어, 어느 디렉터리에서든지 `pm2` 명령어를 사용할 수 있게 됩니다.
+
+
+
+
+### **컴퓨터 종료 시 PM2 프로세스 자동 종료**
+
+운영체제에서 컴퓨터가 종료될 때 PM2 프로세스를 자동으로 종료하고 싶다면, 시스템 종료 시 PM2 프로세스를 중지하도록 설정할 수 있습니다. 리눅스와 macOS는 종료 시 스크립트를 추가할 수 있는 방법을 제공합니다.
+
+### 2-1. 리눅스에서 설정하는 방법
+
+리눅스에서는 시스템 종료 시 실행할 스크립트를 `/etc/systemd/system` 또는 `/etc/init.d/`에 작성할 수 있습니다.
+
+1. **스크립트 생성**: 예를 들어, `/etc/systemd/system/pm2-shutdown.service` 파일을 생성합니다.
+    
+    ```bash
+    bash코드 복사
+    sudo nano /etc/systemd/system/pm2-shutdown.service
+    
+    ```
+    
+2. **스크립트 내용 추가**: 아래와 같이 내용을 작성합니다.
+    
+    ```
+    ini코드 복사
+    [Unit]
+    Description=Shutdown PM2 process
+    Before=shutdown.target
+    
+    [Service]
+    Type=oneshot
+    ExecStart=/usr/bin/pm2 stop all
+    RemainAfterExit=true
+    
+    [Install]
+    WantedBy=halt.target reboot.target shutdown.target
+    
+    ```
+    
+3. **서비스 활성화**: 이 스크립트를 활성화하여 시스템 종료 시 PM2가 자동으로 중지되도록 설정합니다.
+    
+    ```bash
+    bash코드 복사
+    sudo systemctl enable pm2-shutdown
+    
+    ```
+    
+
+### 2-2. macOS에서 설정하는 방법
+
+macOS에서 종료 시 PM2 프로세스를 자동으로 중지하려면 `launchd`를 사용해야 합니다. `launchd`는 macOS의 서비스 관리 시스템입니다.
+
+1. **스크립트 파일 작성**: `/Library/LaunchDaemons/pm2-shutdown.plist` 파일을 생성합니다.
+    
+    ```bash
+    bash코드 복사
+    sudo nano /Library/LaunchDaemons/pm2-shutdown.plist
+    
+    ```
+    
+2. **스크립트 내용 추가**:
+    
+    ```xml
+    xml코드 복사
+    <?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+    <plist version="1.0">
+    <dict>
+        <key>Label</key>
+        <string>pm2-shutdown</string>
+        <key>ProgramArguments</key>
+        <array>
+            <string>/usr/local/bin/pm2</string>
+            <string>stop</string>
+            <string>all</string>
+        </array>
+        <key>RunAtLoad</key>
+        <true/>
+        <key>KeepAlive</key>
+        <false/>
+        <key>OnDemand</key>
+        <false/>
+    </dict>
+    </plist>
+    
+    ```
+    
+3. **파일 권한 설정**:
+    
+    ```bash
+    bash코드 복사
+    sudo chmod 644 /Library/LaunchDaemons/pm2-shutdown.plist
+    sudo launchctl load /Library/LaunchDaemons/pm2-shutdown.plist
+    
+    ```
+    
+
+이렇게 하면 macOS에서 시스템 종료 시 PM2가 자동으로 프로세스를 중지합니다.
+
+### 3. **결론**
+
+1. **PM2 상태 저장**: `pm2 save`를 통해 현재 실행 중인 프로세스를 저장.
+2. **PM2 자동 시작 설정**: `pm2 startup` 명령을 통해 시스템이 재시작될 때 PM2 프로세스가 자동으로 시작되게 설정.
+3. **컴퓨터 종료 시 자동 중지**: 시스템의 종료 스크립트를 설정하여 컴퓨터 종료 시 PM2 프로세스를 자동으로 중지.
+
+이 과정을 통해 컴퓨터가 꺼지거나 재부팅될 때 PM2로 실행된 프로세스들이 안전하게 종료되고, 재시작 시 다시 자동으로 실행될 수 있습니다.
