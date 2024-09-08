@@ -3,8 +3,7 @@
 1. **객체 구조 분해(Object Destructuring)**:
     
     ```jsx
-    javascript
-    코드 복사
+
     const { ref, inView, entry } = useInView(options);
     
     ```
@@ -14,8 +13,7 @@
 2. **배열 구조 분해(Array Destructuring)**:
     
     ```jsx
-    javascript
-    코드 복사
+
     const [ref, inView, entry] = useInView(options);
     
     ```
@@ -28,8 +26,7 @@
 예를 들어:
 
 ```jsx
-javascript
-코드 복사
+
 const [first, second, third] = [1, 2, 3];
 
 ```
@@ -39,8 +36,7 @@ const [first, second, third] = [1, 2, 3];
 따라서 배열 구조 분해를 사용할 때는:
 
 ```jsx
-javascript
-코드 복사
+
 const [ref, inView, entry] = useInView(options);
 
 ```
@@ -48,8 +44,7 @@ const [ref, inView, entry] = useInView(options);
 에서 `ref`, `inView`, `entry`라는 이름이 꼭 이대로여야 할 필요는 없습니다. 원하는 대로 변수 이름을 변경할 수 있습니다:
 
 ```jsx
-javascript
-코드 복사
+
 const [myRef, isVisible, observerEntry] = useInView(options);
 
 ```
