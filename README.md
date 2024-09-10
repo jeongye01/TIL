@@ -92,6 +92,7 @@
 - [일급객체](https://github.com/jeongye01/TIL/blob/main/Javascript/%EC%9D%BC%EA%B8%89%EA%B0%9D%EC%B2%B4.md)
 - [map,filter,each](https://github.com/jeongye01/TIL/blob/main/Javascript/map%2Cfilter%2Ceach%20%EA%B5%AC%ED%98%84.md)
 - [커링함수](https://github.com/jeongye01/TIL/blob/main/Javascript/%EC%BB%A4%EB%A7%81%ED%95%A8%EC%88%98.md)
+- [Map vs WeakMap](https://github.com/jeongye01/TIL/blob/main/Javascript/Map%20vs%20WeakMap.md)
 
 
 # Open Source
