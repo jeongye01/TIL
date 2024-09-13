@@ -43,4 +43,6 @@
 - testing-library
 - Jest
 - 서브모듈 vs 모노레포
-- commander 라이브러리 - CLI 프로그램 만들기 
+- commander 라이브러리 - CLI 프로그램 만들기
+- husky
+- syncpack
