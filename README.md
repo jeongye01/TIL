@@ -106,6 +106,7 @@
   - [타입스크립트 개요](https://github.com/jeongye01/TIL/blob/main/FE/React/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EA%B0%9C%EC%9A%94.md)
 - CSS
   - [SCSS](https://github.com/jeongye01/TIL/tree/main/FE/CSS)
+  - [component 지연 로딩 방식비교](https://github.com/jeongye01/TIL/blob/main/FE/CSS/component%20%EC%A7%80%EC%97%B0%20%EB%A1%9C%EB%94%A9%20%EB%B0%A9%EC%8B%9D%EB%B9%84%EA%B5%90.md)
 - Web API
   - [Intersection Observer API](https://github.com/jeongye01/TIL/blob/main/FE/Web%20API/Intersection%20Observer%20API.md)
   - 
