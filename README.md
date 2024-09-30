@@ -120,6 +120,7 @@
 
 # Git
 - [Merge 방법들](https://github.com/jeongye01/TIL/blob/main/Git/merge.md)
+- [tag](https://github.com/jeongye01/TIL/blob/main/Git/tag.md)
 
 # Tools
 - Database
