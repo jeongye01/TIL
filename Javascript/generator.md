@@ -1,5 +1,6 @@
 # 제너레이터 사용예시
-```
+```tsx
+
 function* take(length:number,iterable:Iterable<T>){
    const iterator = iterable[Symbol.iterator]();
    while(length-- > 0){
@@ -28,8 +29,5 @@ export async function main(){
     chunk(3,[1,2,3,4,5,6]);
     // [[1,2,3],[4,5,6]]
 }
-
-
-
 
 ```
