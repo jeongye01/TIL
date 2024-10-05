@@ -61,3 +61,105 @@ Promise.all([promise1, promise2, promise3])
   });
 
 ```
+
+
+// Promise.all를 사용해 보신적이 있으신가요?
+// 어떨때 사용하면 좋을까요?
+
+
+interface File {
+  name:string;
+  size:number;
+}
+
+function getFile(name:string):Promise<File> {
+   return delay(1000,{name, body:'...',size:100});
+}
+
+
+// api limit가 있을때 사용할 함수(부하 조절)
+async function concurrent(limit:number,fs:(()=>Promise<T>[])){
+   const result:T[][] = [];
+   for(let i=0;i<fs.length/limit ; i++){
+      const tmp:Promise<T>[] = [];
+      for(let j=0;j<limit;j++){
+         const f=fs[i*limit+j];
+         if(f){//undefined error 방지,런타임에서 터지는 에러는 타입스크립트도 막을 수 없음
+            tmp.push(f());
+         }
+      }
+      result.push(await Promise.all(tmp));
+      
+   }
+   return result.flat();
+}
+
+
+# 사용 case
+
+```jsx
+// Promise all을 사용해보신적 있으신가요?
+
+export function delay<T>(time:number,value:T):Promise<T> {
+   return new Promise((resolve)=>setTimeout(()=>resolve(value),time));
+}
+
+export async function main() {
+   console.log(await delay(1000,10));
+   console.log(await delay(1000,20));
+   console.log(await delay(1000,30));
+}
+
+// Promise.all를 사용해 보신적이 있으신가요?
+// 어떨때 사용하면 좋을까요?
+
+interface File {
+  name:string;
+  size:number;
+}
+
+function getFile(name:string):Promise<File> {
+   return delay(1000,{name, body:'...',size:100});
+}
+
+// api limit가 있을때 사용할 함수(부하 조절)
+async function concurrent(limit:number,fs:(()=>Promise<T>[])){
+   const result:T[][] = [];
+   for(let i=0;i<fs.length/limit ; i++){
+      const tmp:Promise<T>[] = [];
+      for(let j=0;j<limit;j++){
+         const f=fs[i*limit+j];
+         if(f){//undefined error 방지,런타임에서 터지는 에러는 타입스크립트도 막을 수 없음
+            tmp.push(f());
+         }
+      }
+      result.push(await Promise.all(tmp));
+      
+   }
+   return result.flat();
+}
+
+export async function main(){
+   // 잘못된 코드
+   console.time();
+   const files = await concurrent(3,[
+      getFile('file1.png'), //<- promise가 여기서 다 실행이 되버림
+      getFile('file2.pdf'),
+      getFile('file3.png'),
+   ]);
+   console.timeEnd();
+   // 고친 코드 -> 함수를 보냄 
+   console.time();
+   const files = await concurrent(3,[
+      ()=>getFile('file1.png'), 
+      ()=>getFile('file2.pdf'),
+      ()=>getFile('file3.png'),
+   ]);
+   console.timeEnd();
+   
+   
+   console.log(files)
+}
+
+```
+
