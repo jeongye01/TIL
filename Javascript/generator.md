@@ -1,4 +1,22 @@
 # 제너레이터 사용예시
+
+
+generator는 iterator을 반환한다. 
+
+iterator는 iterable 하므로 기본적으로 next()를 통해 순회할수있으며 전개 연산자로 사용할수도 있다.
+
+```jsx
+function* gen(){
+   for(let i=0;i<4;i++){
+     yield i;
+   }
+}
+
+const iterator = gen();
+console.log([...gen()]);
+
+```
+
 ```tsx
 
 function* take(length:number,iterable:Iterable<T>){
