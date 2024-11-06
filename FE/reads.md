@@ -25,3 +25,4 @@
 - https://toss.tech/article/improving-code-quality-via-eslint-and-ast
 - https://www.kimcoder.io/blog/ts-pattern
 - https://emewjin.github.io/feature-sliced-design/
+- https://feature-sliced.design/kr/docs/get-started/tutorial
