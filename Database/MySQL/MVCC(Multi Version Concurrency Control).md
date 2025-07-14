@@ -1,4 +1,3 @@
-## MVCC (Multi-Version Concurrency Control)
 
 **여러 트랜잭션이 동시에 데이터에 접근할 때, 일관성과 동시성을 보장하기 위한 방식.**
 
