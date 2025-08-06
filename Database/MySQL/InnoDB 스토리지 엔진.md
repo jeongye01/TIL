@@ -124,3 +124,91 @@
 | **대상** | Dirty Page | LRU Old 영역의 페이지 (Dirty면 flush 후 해제) |
 | **목적** | 복구 단축 & Redo Log 회수 | Free 페이지 확보 |
 | **순서** | LSN 순서대로 | 사용 빈도 순서(LRU) |
+
+
+
+## 언두 로그
+
+- 언두로그는 DML로 데이터를 변경했을때 변경되기 전의 데이터를 보관하는 곳이다.
+- InnoDB 스토리지 엔진은 트랜잭션과 격리 수준을 보장하기 위해 DML(INSERT, UPDATE, DELETE) 로 변경되기 이전 버전의 데이터를 별도로 백업한다.
+- 이렇게 백업된 데이터를 Undo Log 라고 한다.
+
+### 언두로그 사용
+
+- 트랜잭션 보장
+    - 트랜잭션이 롤백되면 트랜잭션 도중 변경된 데이터를 변경 전 데이터로 복구해야 하는데, 이때 언두 로그에 백업해 둔 이전 버전의 데이터를 이용해 복구한다.
+- 격리 수준 보장
+    - 특정 커넥션에서 데이터를 변경하는 도중에 다른 커넥션에서 데이터를 조회하면 트랜잭션 격리 수준에 맞게 변경중인 레코드를 읽지 않고 언두 로그에 백업해둔 데이터를 읽어서 반환하기도 한다.
+
+### 언두 테이블스페이스 관리
+
+- **Undo Tablespace**: Undo Log를 저장하는 파일(물리적 공간)
+- **Rollback Segment**: Undo Tablespace 안의 논리적 그룹 (Undo Log를 관리하는 단위)
+- **Undo Slot**: 각 트랜잭션이 Undo Log를 기록하기 위해 할당받는 공간
+
+### 1. Undo Tablespace (언두 테이블스페이스)
+
+- Undo Log를 저장하는 **물리적 공간**
+- 기본적으로 `undo_001`, `undo_002` 같은 파일로 존재
+- 트랜잭션에서 **UPDATE/DELETE/INSERT** 같은 변경을 할 때,
+    
+    "이전 버전"을 보관하는 기록이 여기에 저장됨
+    
+
+👉 Crash 발생 시 **롤백(Undo)** 가능
+
+👉 MVCC에서 과거 버전을 읽을 때 사용
+
+---
+
+### 2. Rollback Segment (롤백 세그먼트)
+
+- Undo Tablespace 안의 **논리적 단위**
+- 여러 트랜잭션이 동시에 Undo Log를 저장할 수 있도록 Undo Tablespace를 **세그먼트 단위로 나눔**
+- 각 Rollback Segment는 **Undo Log를 여러 Undo Slot으로 관리**
+
+📌 기본적으로 InnoDB는 Undo Tablespace에 여러 Rollback Segment를 만들어 놓음
+
+→ 병행 트랜잭션 수가 많아도 Undo 기록을 분산 저장 가능
+
+---
+
+### 3. Undo Slot (언두 슬롯)
+
+- Rollback Segment 안에서 **트랜잭션 하나가 Undo Log를 저장하기 위해 잡는 슬롯**
+- 트랜잭션 시작 시 Undo Slot을 확보
+- 트랜잭션 종료(COMMIT 또는 ROLLBACK) 시 Undo Slot 해제
+
+👉 Undo Slot이 부족하면?
+
+- 더 이상 트랜잭션을 시작할 수 없음 → `"too many active transactions"` 에러 가능
+
+---
+
+### 흐름 예시
+
+1. 트랜잭션 A 시작
+    - Undo Tablespace 안 Rollback Segment에서 Undo Slot 할당
+2. A가 `UPDATE accounts SET balance = balance - 100 WHERE id=1;`
+    - 변경 전의 값(balance=500)을 Undo Log에 기록
+    - Undo Log는 Rollback Segment 안 Undo Slot에 저장
+3. COMMIT
+    - Undo Log는 나중에 정리 가능(즉시 삭제 아님 → MVCC 때문에 보관)
+4. 다른 트랜잭션이 "과거 시점" 데이터를 읽으면 Undo Log 활용
+
+---
+
+```
+
+Undo Tablespace
+ ├─ Rollback Segment 1
+ │   ├─ Undo Slot A → Txn1 Undo Log
+ │   ├─ Undo Slot B → Txn2 Undo Log
+ │
+ ├─ Rollback Segment 2
+ │   ├─ Undo Slot C → Txn3 Undo Log
+ │   └─ Undo Slot D → Txn4 Undo Log
+
+```
+
+---
