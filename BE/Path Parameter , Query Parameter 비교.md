@@ -6,8 +6,7 @@
 - **예시**:
     
     ```
-    bash
-    복사편집
+
     GET /users/123           # ID가 123인 사용자 조회
     PUT /products/456        # ID가 456인 상품 수정
     DELETE /orders/789       # ID가 789인 주문 삭제
