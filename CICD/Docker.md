@@ -71,3 +71,7 @@ docker run -it ubuntu /bin/bash
 - Docker는 Go 언어로 작성됨
 - Linux 커널의 **namespace** 기능을 활용해 격리된 실행 환경 제공
 - 각 컨테이너는 별도의 namespace에서 실행 → 독립성 확보
+
+
+## 참고
+https://docs.docker.com/get-started/docker-overview/#fast-consistent-delivery-of-your-applications
