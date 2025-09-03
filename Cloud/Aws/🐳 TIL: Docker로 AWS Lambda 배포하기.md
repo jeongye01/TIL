@@ -104,7 +104,7 @@ docker build -t lambda-app .
 ```
 
 - 현재 디렉토리(`.`)에 있는 Dockerfile로 이미지를 빌드
-- `t lambda-app` : 빌드된 이미지에 `lambda-app` 이라는 이름(태그)을 붙임
+- `-t lambda-app` : 빌드된 이미지에 `lambda-app` 이라는 이름(태그)을 붙임
 
 로컬 테스트:
 
