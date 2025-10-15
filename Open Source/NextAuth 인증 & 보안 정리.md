@@ -84,3 +84,6 @@
 const session = await getServerSession(authOptions);
 if (!session) redirect("/login");
 ```
+
+### 공식 문서 링크
+https://next-auth.js.org/getting-started/introduction
