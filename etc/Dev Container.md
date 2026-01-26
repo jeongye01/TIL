@@ -18,7 +18,7 @@
 ## Dev Container란?
 
 Dev Container는 **개발 환경을 Docker 컨테이너로 정의하고,
-IDE(VS Code)와 연결하여 사용하는 개발 환경 표준**이다.
+IDE(VS Code)와 연결하여 사용** 하는 방식으로 구현할 수 있다.
 
 Dev Container를 사용하면 다음 요소들을 프로젝트 내부에 코드로 고정할 수 있다.
 
