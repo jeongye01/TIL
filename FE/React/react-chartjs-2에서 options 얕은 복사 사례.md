@@ -38,7 +38,7 @@ options: options && { ...options }
 이 코드는 다음을 의미한다.
 
 - `options`가 존재하면
-- **얕은 복사(shallow copy)** 를 만들어
+- **얕은 복사(shallow copy)** (1depth까지만 복사) 를 만들어
 - Chart.js에 전달한다.
 
 결과적으로:
